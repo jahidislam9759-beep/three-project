@@ -343,7 +343,8 @@ footer{
  
     .searcharea{
         position: static;
-   margin: 20px;
+    margin: auto;
+   width: 50%;
     }
 
     /* main image */
@@ -426,3 +427,4 @@ footer{
         width: 90%;
     }
 }
+
