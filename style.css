@@ -323,3 +323,106 @@ letter-spacing: 0.5px;
 footer{
     text-align: center;
 }
+
+/*Mobile View*/
+
+@media (max-width: 768px)
+     {
+    .container{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+   
+    .logo{
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+ 
+    .searcharea{
+        position: static;
+   margin: 20px;
+    }
+
+    /* main image */
+    .sectionl{
+        position: static;
+        transform: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .sectionl img{
+        height: 200px;
+    }
+
+    /* text section */
+    .j66{
+        position: static;
+        transform: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .j66 h1,
+    .j66 h2{
+        font-size: 2rem;
+        line-height: 40px;
+        letter-spacing: 5px;
+    }
+
+    .j66 h1{
+        letter-spacing: 10px;
+    }
+
+    /* button */
+    .btn{
+        margin: 20px auto;
+    }
+
+    /* social icons */
+    .icon{
+        position: static;
+        transform: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .icon a{
+        flex-direction: row;
+    }
+
+    /* product section */
+    .productsection{
+        width: 95%;
+        margin-top: 20px;
+    }
+
+    .product{
+        flex-direction: column;
+    }
+
+    .productbox{
+        margin: 15px 0;
+    }
+
+    /* about section */
+    .about{
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 50px !important;
+    }
+
+    .baoutbox{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* notification */
+    .notificationinput{
+        width: 90%;
+    }
+}
